@@ -1,17 +1,17 @@
-import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
 import useTelegramWebApp from './hooks/useTelegramWebApp/useTelegramWebApp';
 import Root from './routes/Root'; // компонент, который будет рендериться на корневом маршруте
 import { StrictMode, useState } from 'react';
-import ZodiacSignsList from './components/ZodiacSignsList/ZodiacSignsList';
 import { HelloPage } from './components/HelloGage';
 import { LanguageProvider } from './Providers/LanduageContext';
+import ZodiacSignsList from './components/ZodiacSignsList/ZodiacSignsList';
 
 
 
 function App() {
   const telegramWebApp = useTelegramWebApp();
-  const [language, setLanguage] = useState("en");
+  const [language] = useState("en");
 
   const router = createBrowserRouter([
     {

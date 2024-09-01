@@ -5,6 +5,6 @@ interface TelegramWebApp {
 }
 
 export default function useTelegramWebApp(): TelegramWebApp | null {
-    const [telegramWebApp, setTelegramWebApp] = useState<TelegramWebApp | null>(window.Telegram?.WebApp || null);
+    const [telegramWebApp] = useState<TelegramWebApp | null>(window.Telegram?.WebApp || null);
     return telegramWebApp;
 }

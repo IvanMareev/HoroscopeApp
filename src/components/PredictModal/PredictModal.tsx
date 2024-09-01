@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import styles from './PredictModal.module.css';
-import useHoroscopeFetcher from '../../hooks/useHoroscopeFetcher/useHoroscopeFetcher';
 import { useLanguage } from '../../Providers/LanduageContext';
 
 export interface PredictModalProps {
@@ -12,18 +11,18 @@ export interface PredictModalProps {
   name: string;
   nameEn?: string;
   date: string;
-  language: string;
+  language?: string;
 }
 
 Modal.setAppElement('#root');
 
-export function PredictModal({ isOpen, nameEn, onRequestClose, date, name, symbol, language }: PredictModalProps) {
+export function PredictModal({ isOpen, nameEn, onRequestClose, date, name, symbol}: PredictModalProps) {
   const { translations } = useLanguage();
   const modalPrediction = translations.modalPrediction.yourPredictionFor;
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [formatPredict, setFormatPredict] = useState<string>('');
-  let prediction;
-  prediction = useHoroscopeFetcher();
+  const [formatPredict] = useState<string>('');
+  // let prediction;
+  // prediction = useHoroscopeFetcher();
 
 
   useEffect(() => {

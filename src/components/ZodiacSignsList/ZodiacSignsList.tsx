@@ -1,4 +1,4 @@
-import { LanguageTranslations, useLanguage, ZodiacSignData } from '../../Providers/LanduageContext';
+import { useLanguage, ZodiacSignData } from '../../Providers/LanduageContext';
 import { ZodiacSign } from '../ZodiacSign/ZodiacSign';
 import style from './ZodiacSignsList.module.css'
 
