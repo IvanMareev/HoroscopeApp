@@ -1,0 +1,69 @@
+{
+    "welcomePage": {
+        "welcomePhrase": "Discover your future by zodiac sign",
+        "welcomeDescription": "Start your journey to amazing discoveries right now.",
+        "additionalDescription": "Explore our portal and learn about its unique features.",
+        "buttonToZodiacSigns": "Go to Zodiac Signs"
+    },
+    "zodiacSignsList": {
+        "buttonToWelcomePage": "Go to the welcome page",
+        "selectDateForPrediction": "Select a date for the prediction",
+        "buttonShowPrediction": "Show prediction",
+        "buttonToday": "Today",
+        "buttonTomorrow": "Tomorrow",
+        "buttonCustomDate": "Custom date"
+    },
+    "modalPrediction": {
+        "yourPredictionFor": "Your prediction for"
+    },
+    "zodiacSignsData": [
+        {
+            "name": "aries",
+            "symbol": "♈️"
+        },
+        {
+            "name": "taurus",
+            "symbol": "♉️"
+        },
+        {
+            "name": "gemini",
+            "symbol": "♊️"
+        },
+        {
+            "name": "cancer",
+            "symbol": "♋️"
+        },
+        {
+            "name": "leo",
+            "symbol": "♌️"
+        },
+        {
+            "name": "virgo",
+            "symbol": "♍️"
+        },
+        {
+            "name": "libra",
+            "symbol": "♎️"
+        },
+        {
+            "name": "scorpio",
+            "symbol": "♏️"
+        },
+        {
+            "name": "sagittarius",
+            "symbol": "♐️"
+        },
+        {
+            "name": "capricorn",
+            "symbol": "♑️"
+        },
+        {
+            "name": "aquarius",
+            "symbol": "♒️"
+        },
+        {
+            "name": "pisces",
+            "symbol": "♓️"
+        }
+    ]
+}

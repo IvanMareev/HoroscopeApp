@@ -1,0 +1,48 @@
+/* ZodiacSign.module.css */
+
+.ZodiacSign {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.6s;
+    backface-visibility: hidden;
+    margin-bottom: 7%;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .symbol {
+    font-size: 3em;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    color: #444;
+    margin: 20px 0;
+  }
+  
+  .buttonPrediction, .buttonDate {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 3px;
+  }
+  
+  .buttonPrediction:hover, .buttonDate:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,81 @@
+{
+    "welcomePage": {
+        "welcomePhrase": "Узнай своё будущее по знаку зодиака",
+        "welcomeDescription": "Начни своё путешествие к удивительным открытиям прямо сейчас.",
+        "additionalDescription": "Исследуй наш портал и узнай о его уникальных возможностях.",
+        "buttonToZodiacSigns": "Перейти к знакам зодиака"
+    },
+    "zodiacSignsList": {
+        "buttonToWelcomePage": "Перейти на приветственную страницу",
+        "selectDateForPrediction": "Выберите дату предсказания",
+        "buttonShowPrediction": "Посмотреть предсказание",
+        "buttonToday": "Сегодня",
+        "buttonTomorrow": "Завтра",
+        "buttonCustomDate": "Произвольная дата"
+    },
+    "modalPrediction": {
+        "yourPredictionFor": "Ваше предсказание на"
+    },
+    "zodiacSignsData": [
+        {
+            "name": "овен",
+            "nameEn": "aries",
+            "symbol": "♈️"
+        },
+        {
+            "name": "телец",
+            "nameEn": "taurus",
+            "symbol": "♉️"
+        },
+        {
+            "name": "близнецы",
+            "nameEn": "gemini",
+            "symbol": "♊️"
+        },
+        {
+            "name": "рак",
+            "nameEn": "cancer",
+            "symbol": "♋️"
+        },
+        {
+            "name": "лев",
+            "nameEn": "leo",
+            "symbol": "♌️"
+        },
+        {
+            "name": "дева",
+            "nameEn": "virgo",
+            "symbol": "♍️"
+        },
+        {
+            "name": "весы",
+            "nameEn": "libra",
+            "symbol": "♎️"
+        },
+        {
+            "name": "скорпион",
+            "nameEn": "scorpio",
+            "symbol": "♏️"
+        },
+        {
+            "name": "стрелец",
+            "nameEn": "sagittarius",
+            "symbol": "♐️"
+        },
+        {
+            "name": "козерог",
+            "nameEn": "capricorn",
+            "symbol": "♑️"
+        },
+        {
+            "name": "водолей",
+            "nameEn": "aquarius",
+            "symbol": "♒️"
+        },
+        {
+            "name": "рыбы",
+            "nameEn": "pisces",
+            "symbol": "♓️"
+        }
+    ]
+}
